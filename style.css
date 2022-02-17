@@ -11,12 +11,21 @@ body {
     justify-content: center;
     align-items: center;
     width: 50vw;
+    height: 100vh;
+    background-image: url(img/guillaume-briard-lSXpV8bDeMA-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.title p {
+    color: white;
 }
 
 .titleBar {
     height: 75px;
     width: 50vw;
-    background-color: gray;
+    background-color: rgb(110, 99, 99);
+    opacity: 0.6;
     display: flex;
     justify-content: center;
     color: white;
