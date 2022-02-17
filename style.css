@@ -67,3 +67,10 @@ body {
     font-size: 24px;
     margin-left: 50px;
 }
+
+button {
+    height: 50px;
+    font-size: 24px;
+    background-color: #97ad83;
+    color: white;
+}
