@@ -1,4 +1,5 @@
 body {
+    /* puts the whole body into a box that is resizeable to the view window*/
     display: flex;
     justify-content: center ;
     width: 100vw;
@@ -6,6 +7,8 @@ body {
 }
 
 .title {
+    /*Adds a background image to the title section on the left side of the page*/
+    /*centers the Main title with the logo to the view window*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +41,7 @@ body {
 }
 
 .container{
+    /*creates a box for the content on the right side of the screen and sets background color*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,13 +57,7 @@ body {
 }
 
 .form {
-    height: 400px;
-    width: 50vw;
-    background-color: rgb(241, 239, 239);
-    border-style: bold;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 5px;
+    /*styles the white box in the center right of the screen where the form inputs are located*/
     display: flex;
     flex-direction:column;
     justify-content: space-evenly;
@@ -73,12 +71,14 @@ body {
 }
 
 .form form {
+    /*creates a box to separate the form elements from the rest of the data on the right side of the screen*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .formData {
+    /*creates a box for the specific form Data*/
     height: 375px;
     width: 50vw;
     background-color: rgb(241, 239, 239);
@@ -91,12 +91,14 @@ body {
 }
 
 .formLeft, .formRight {
+    /*box for the form inputs on the left and right*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 input {
+    /*styles the form input boxes*/
    border: 2px solid #000;
    margin-bottom: 15px;
    padding: 5px;
@@ -121,6 +123,7 @@ input:valid {
 }
 
 button {
+    /*Styles the Submit button for the form*/
     height: 50px;
     font-size: 24px;
     background-color: #97ad83;
