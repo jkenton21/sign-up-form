@@ -54,10 +54,47 @@ body {
 
 .form {
     height: 400px;
+    width: 50vw;
+    background-color: rgb(241, 239, 239);
     border-style: bold;
     border-color: black;
     border-width: 5px;
     border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form h3 {
+    margin-left: 50px;
+}
+
+.form form {
+    height: 400px;
+    width: 50vw;
+    background-color: rgb(241, 239, 239);
+    border-style: bold;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formLeft, .formRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formLeft, .formRight input {
+   
 }
 
 .createAccount {
@@ -66,6 +103,7 @@ body {
     align-items: flex-start;
     font-size: 24px;
     margin-left: 50px;
+    margin-top: 50px;
 }
 
 button {
